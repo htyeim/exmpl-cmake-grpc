@@ -9,7 +9,7 @@ execute_process(COMMAND conan install .. --build=missing)
 include(${CMAKE_CURRENT_BINARY_DIR}/conan_paths.cmake)
 
 
-find_package(protobuf REQUIRED)
+find_package(Protobuf REQUIRED)
 find_package(gRPC REQUIRED)
 
 
