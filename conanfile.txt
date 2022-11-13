@@ -1,0 +1,13 @@
+
+[build_requires]
+
+[requires]
+grpc/1.50.0
+protobuf/3.21.4
+
+[generators]
+cmake
+cmake_find_package
+cmake_paths
+
+[options]
