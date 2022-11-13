@@ -21,7 +21,7 @@ target_link_libraries(myproto
         gRPC::grpc++
 )
 target_include_directories(myproto PUBLIC ${CMAKE_CURRENT_BINARY_DIR})
-
+message("CMAKE_CURRENT_BINARY_DIR: " ${CMAKE_CURRENT_BINARY_DIR})
 #
 # Compile protobuf and grpc files in myproto target to cpp
 #
